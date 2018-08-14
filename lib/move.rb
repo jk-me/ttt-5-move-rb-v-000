@@ -8,5 +8,9 @@ end
 
 # code your input_to_index and move method here!
 def input_to_index(n)
-  int=(n.to_i) - 1
+  index=(n.to_i) - 1
+end
+
+def move(board,index,turn='X')
+  board[index]=turn
 end
